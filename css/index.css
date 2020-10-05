@@ -1,0 +1,1178 @@
+
+html, body {
+	height: 100%;
+	text-decoration: none;
+
+}
+
+body{
+	margin: 0;
+
+	min-width: 1280px;
+
+	background-color: #093028;
+}
+
+h1::selection{
+	background: #11998e;
+}
+h2::selection{
+	background: #11998e;
+}
+h3::selection{
+	background: #11998e;
+}
+li::selection{
+	background: #11998e;
+}
+span.Two::selection{
+	background: #11998e;
+}
+a::selection{
+	background: #11998e;
+}
+p::selection{
+	background: #11998e;
+}
+img::selection{
+	background: #11998e;
+}
+
+@keyframes hOne {
+	0% {
+		color: white;
+	}
+	50% {
+		color: black;
+	}
+	100% {
+		color: white;
+	}
+}
+
+
+@keyframes BgAnimation {
+
+	0% {
+		background-position: 0% 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes End {
+	0% {
+		width: 10%;
+	}
+	50% {
+		width: 100%;
+	}
+	100% {
+		width: 10%;
+	}
+}
+
+@keyframes BarAnimationHTML {
+
+	0% {
+		width: 68%;
+	}
+	20% {
+		width: 69%;
+	}
+	40% {
+		width: 64.5%;
+	}
+	60% {
+		width: 66%;
+	}
+	80% {
+		width: 65%;
+	}
+	100% {
+		width: 68%;
+	}
+	
+}
+
+@keyframes BarAnimationCSS {
+
+	0% {
+		width: 81.5%;
+	}
+	20% {
+		width: 83%;
+	}
+	40% {
+		width: 82%;
+	}
+	60% {
+		width: 85%;
+	}
+	80% {
+		width: 84%;
+	}
+	100% {
+		width: 81.5%;
+	}
+	
+}
+
+@keyframes BarAnimationJavaScript {
+
+	0% {
+		width: 54%;
+	}
+	20% {
+		width: 50.5%;
+	}
+	40% {
+		width: 53%;
+	}
+	60% {
+		width: 51%;
+	}
+	80% {
+		width: 52%;
+	}
+	100% {
+		width: 54%;
+	}
+	
+}
+
+@keyframes BarAnimationFlexBox {
+
+	0% {
+		width: 61%;
+	}
+	20% {
+		width: 60.5%;
+	}
+	40% {
+		width: 63%;
+	}
+	60% {
+		width: 64%;
+	}
+	80% {
+		width: 62%;
+	}
+	100% {
+		width: 61%;
+	}
+	
+}
+
+@keyframes BarAnimationBootstrap {
+
+	0% {
+		width: 53%;
+	}
+	20% {
+		width: 50%;
+	}
+	40% {
+		width: 52%;
+	}
+	60% {
+		width: 50%;
+	}
+	80% {
+		width: 51%;
+	}
+	100% {
+		width: 53%;
+	}
+	
+}
+
+@keyframes Scroll {
+	0%{
+		transform: translateY(0px);
+	}
+	50%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+
+}
+
+
+
+
+
+.container{
+	height: 100%;
+
+}
+
+
+.title{
+	margin-top: 15%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	height: 50%;
+	margin: 0;
+
+	background: linear-gradient(-45deg,#237A57,#0f3443,#F56217);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	padding-top: 17%;
+	padding-bottom: 7%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.DivScroll{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.Scroll{
+	font-family: 'Baloo Tammudu 2', sans-serif;
+	color: #E9E4F0;
+	font-weight: lighter;
+}
+
+.ImgScroll{
+	width: 8%;
+	transition: 2s;
+	animation: Scroll 2s linear infinite;
+
+}
+
+h1{ 
+	font-family: 'Monoton', fantasy;
+	font-size: 600%;
+	font-weight: normal;
+	transition: all 5s ease 0s;
+	align-content: center;
+
+	animation: hOne 15s ease-in-out infinite;
+
+}
+
+
+.Me{
+
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#000000,#434343);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+	animation: hOne 15s ease-in-out infinite;
+	font-weight: normal;
+
+	
+}
+
+img{
+	width: 50%;
+	user-select: none;
+}
+
+	
+
+.MeContent{
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+}
+
+.MyTitle{
+	justify-content: center;
+	
+}
+
+.Content{
+	display: flex;
+
+	
+}
+
+h3{
+	color: white;
+	font-family: 'Baloo Tammudu 2', sans-serif;
+	size: 20%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 120%;
+
+}
+
+p{
+	color: white;
+	font-family: 'Baloo Tammudu 2', sans-serif;
+	size: 20%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+.h2Me{
+
+	font-family: 'Ewert', cursive;
+	color: white;
+	font-weight: normal;
+	font-size: 500%;
+	
+
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 20s ease 0s;
+
+
+}
+
+.EndAnim{
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	margin-bottom: 5%;
+}
+
+
+.EndOne{
+	padding: 0.25%;
+	background-color: white;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: End 5s ease infinite;
+}
+
+
+
+.h2Me._active{
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.Resp{
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#c31432,#240b36);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+}
+
+.RespTitleH2{
+	font-family: 'Bungee Shade', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+
+}
+
+.RespContent{
+	display: flex;
+}
+
+.RespUl{
+	font-family: 'Baloo Tammudu 2', sans-serif;
+	font-size:150%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 7%;
+	color: white;
+}
+
+.Skills{
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#360033,#0b8793);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+}
+
+.SkillsTitle{
+	padding-top: 2%;
+
+}
+
+.SkillsTitleH2{
+	font-family: 'Fascinate Inline', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.SkillsContent{
+	display: flex;
+}
+
+.SkillsUl{
+	font-family: 'Baloo Tammudu 2', sans-serif;
+	font-size:140%;
+	font-weight: normal;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	padding-left: 7%;
+	padding-right: 5%;
+	color: white;
+}
+
+.Hobbies{
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#FF5F6D,#FFC371);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+}
+
+.HobbiesTitleH2{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.HobbiesContent{
+	display: flex;
+}
+
+.HobbiesP{
+
+}
+
+.SkillsBar{
+
+	background: linear-gradient(-45deg,#000000,#2E1437);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 9%;
+}
+
+.BarTitle{}
+
+.BarTitleH2{
+	font-family: 'Plaster', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.BarContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.BarAnim{
+	width: 200%;
+}
+
+.BarName{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.BarHTML{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationHTML 2s ease infinite;
+}
+
+.BarCSS{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationCSS 1s ease infinite;
+}
+
+.BarJavaScript{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationJavaScript 1s ease infinite;
+}
+
+.BarFlexBox{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationFlexBox 1.5s ease infinite;
+}
+
+.BarBootstrap{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationBootstrap 1.2s ease infinite;
+}
+
+.Contact{
+	background: linear-gradient(-45deg,#000000,#093028);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.ContactDetailes{
+	float: left;
+}
+
+.ContactContent{
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+}
+
+.ContactTitleH2{
+	font-family: 'Faster One', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.Butt{
+	border-radius: 50%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 10%;
+}
+
+.SocialNetwork{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+button.linkedin{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(linkedin.svg);
+	outline: none;
+}
+
+button.GitHub{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(github.svg);
+	background-size: 103%;
+	background-position: center;
+	outline: none;
+}
+
+button.Telegram{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(telegram.svg);
+	outline: none;
+}
+
+
+
+form{
+	border-radius: 50%;
+	transition: 0.1s linear ;
+}
+
+form.l:hover{
+	box-shadow: 0 0 10px rgba(41, 72, 255,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+form.G:hover{
+	box-shadow: 0 0 10px rgba(67, 67, 67,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+form.T:hover{
+	box-shadow: 0 0 10px rgba(18, 194, 233,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+p.Detailes{
+	font-size: 200%;
+	padding: 0;
+	color: #8e9eab;
+}
+
+span.One{
+	user-select: none;
+}
+
+span.Two{
+	color: white;
+}
+
+.EndAnimTwo{
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	padding-right: 30%;
+	padding-left: 30%;
+	margin-bottom: 5%;
+}
+
+
+
+
+				@media (max-width: 600px) {
+				.papa{
+			height: 100%;
+
+		}
+
+		/*.parallax{
+			height: 100%;
+		}*/
+
+		.title{
+			margin-top: 15%;
+			margin-bottom: 10%;
+			display: flex;
+			justify-content: center;
+			height: 50%;
+			margin: 0;
+
+			background: linear-gradient(-45deg,#237A57,#0f3443,#F56217);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			padding-top: 45%;
+			padding-bottom: 45%;
+
+		}
+
+		.DivScroll{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 40%;
+			margin-bottom: 0%;
+			padding-top: 10%;
+}
+
+		img{
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h1{ 
+			font-family: 'Monoton', cursive;
+			font-size: 90px;
+			font-weight: normal;
+			padding-top: 20%;
+
+		}
+
+		.Me{
+
+			margin-top: 0%;
+
+			background: linear-gradient(-45deg,#000000,#434343);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+			
+		}
+
+
+			
+
+		.MeContent{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.MyTitle{
+			justify-content: center;
+			
+		}
+
+		.Content{
+			display: flex;
+			flex-direction: column-reverse;
+			margin-left: 5%;
+			margin-right: 5%;
+			
+			
+		}
+
+		h3{
+			color: white;
+			font-family: 'Baloo Tammudu 2', cursive;
+			size: 20%;
+			font-weight: normal;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			text-decoration: none;
+			font-size: 220%;
+			margin-left: 10%;
+			margin-right: 10%;
+
+		}
+
+		.h2Me{
+
+			font-family: 'Ewert', cursive;
+			color: white;
+			font-weight: normal;
+			font-size: 500%;
+
+
+		}
+
+		.Resp{
+			margin-top: 0%;
+
+			background: linear-gradient(-45deg,#c31432,#240b36);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		.RespTitleH2{
+			font-family: 'Bungee Shade', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+
+		}
+
+		.RespContent{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.RespUl{
+			font-family: 'Baloo Tammudu 2', cursive;
+			font-size:250%;
+			font-weight: normal;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			color: white;
+			margin-left: 10%;
+			margin-right: 10%;
+
+		}
+
+		.Skills{
+			margin-top: 0%;
+
+			background: linear-gradient(-45deg,#0f0c29,#302b63,#24243e);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			direction: flex;
+			flex-direction: column;
+
+		}
+
+		.SkillsTitle{
+			padding-top: 2%;
+
+		}
+
+		.SkillsTitleH2{
+			font-family: 'Fascinate Inline', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+		}
+
+		.SkillsContent{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.SkillsUl{
+			font-family: 'Baloo Tammudu 2', cursive;
+			font-size:260%;
+			font-weight: normal;
+			padding-top: 0%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			color: white;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.HobbiesTitleH2{
+			font-family: 'Permanent Marker', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+			align-content: center;
+
+		}
+
+		.HobbiesContent{
+			display: flex;
+			flex-direction: column;
+
+			padding-right: 5%;
+			padding-left: 5%;
+		}
+
+
+				.SkillsBar{
+
+			background: linear-gradient(-45deg,#000000,#2E1437);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			display: flex;
+			justify-content: center;
+		  	align-content: space-between;
+		  	align-items: center;
+			flex-direction: column;
+
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 9%;
+		}
+
+		.BarTitle{}
+
+		.BarTitleH2{
+			font-family: 'Plaster', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+			align-content: center;
+		}
+
+		.BarContent{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.BarAnim{
+			width: 100%;
+		}
+
+		.BarName{
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		.BarHTML{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationHTML 2s ease infinite;
+		}
+
+		.BarCSS{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationCSS 1s ease infinite;
+		}
+
+		.BarJavaScript{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationJavaScript 1s ease infinite;
+		}
+
+		.BarFlexBox{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationFlexBox 1.5s ease infinite;
+		}
+
+		.BarBootstrap{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationBootstrap 1.2s ease infinite;
+		}
+
+		.BarP{
+			font-size: 250%;
+		}
+
+		.SocialNetwork{
+			margin-top: 10%;
+			margin-bottom: 20%;
+		}
+}
+
+@media (min-width: 2560px) {
+	.Me{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.Resp{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.RespContent{
+		justify-content: center;
+	}
+	.Skills{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.SkillsBar{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.title{
+		padding-top: 18%;
+		padding-bottom: 18%;
+	}
+	img{
+		width: 30%;
+	}
+}
+
+@media (max-width: 1920px) {
+	.title{
+			padding-top: 17%;
+			padding-bottom: 17%;
+
+		}
+}
+
+@media (max-width: 1440px) {
+	.title{
+			padding-top: 15%;
+			padding-bottom: 17%;
+
+		}
+}
+
+@media (max-width: 1024px) {
+	.title{
+			padding-top: 12%;
+			padding-bottom: 12%;
+
+		}
+}
+
+@media (max-width: 768px) {
+	.title{
+			padding-top: 50%;
+			padding-bottom: 50%;
+
+		}
+		.Scroll{
+			font-size: 200%;
+		}
+		.ImgScroll{
+			width: 16%;
+		}
+		button.linkedin{
+			width: 110px;
+			height: 110px;
+		}
+		button.GitHub{
+			width: 110px;
+			height: 110px;
+		}button.Telegram{
+			width: 110px;
+			height: 110px;
+		}
+}
+
+@media (max-width: 540px) {
+	.title{
+			padding-top: 65%;
+			padding-bottom: 40%;
+
+		}
+}
+
+@media (max-width: 415px) {
+	.title{
+			padding-top: 90%;
+			padding-bottom: 60%;
+
+		}
+}
+
+@media (max-width: 412px) {
+	.title{
+			padding-top: 100%;
+			padding-bottom: 70%;
+
+		}
+}
+
+@media (max-width: 376px) {
+	.title{
+			padding-top: 95%;
+			padding-bottom: 90%;
+
+		}
+}
+
+@media (max-width: 375px) {
+	.title{
+			padding-top: 70%;
+			padding-bottom: 45%;
+
+		}
+}
+
+@media (max-width: 361px) {
+	.title{
+			padding-top: 90%;
+			padding-bottom: 65%;
+
+		}
+}
+
+@media (max-width: 320px) {
+	.title{
+			padding-top: 80%;
+			padding-bottom: 80%;
+	}
+}
+
+
