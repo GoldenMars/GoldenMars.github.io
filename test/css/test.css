@@ -1,0 +1,1936 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+button{
+	outline: none;
+}
+header{
+	position: relative;
+width: 100%;
+height: 150px;
+left: 0px;
+top: 0px;
+background: #fff;
+
+display: flex;
+flex-direction: column;
+
+z-index: 10;
+
+margin-bottom: 0;
+
+}
+
+.HeaderRowOne{
+	display: flex;
+	justify-content: space-between;	
+	padding-top: 1%;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-bottom: 1%;
+}
+.vector{
+	position: absolute;
+left: 49.17%;
+right: 4.17%;
+top: 10.75%;
+bottom: 18.75%;
+}
+.Language{
+	display: flex;
+	margin-top: -1%;
+}
+.LanguageEl{
+	font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.LanguageChoise{
+	font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-left: 10%;
+
+color: rgba(0, 0, 0, 0.8);	
+}
+.Language img{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.tel a{
+	font-family: Commissioner;
+font-style: normal;
+font-weight: normal;
+
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.5);
+
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 15px 0px;
+text-decoration: none;
+
+}
+.contact{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	position: absolute;
+	top: 10%;
+	bottom: 18%;
+	left: 58%;
+	right: 10%;
+
+}
+.a1{
+
+}
+.tel{
+	flex-grow: 1;
+	margin-left: 10px;
+}
+.a1{
+	margin-left: 10px;
+}
+.Viber{
+	margin-left: 10px;
+}
+.WhatsApp{
+	margin-left: 10px;
+}
+.Subtract{
+	margin-left: 20px;
+}
+
+.HeaderRowTwo{
+	display: flex;
+	padding-left: 10%;
+	padding-right: 10%; 
+}
+.Logo{
+	display: flex;
+}
+
+.Navigation{}
+.NavigatoinHome{
+	position: absolute;
+	top: 62%;
+	left: 45%;
+}
+.NavigatoinAboutUs{
+	position: absolute;
+	top: 62%;
+	left: 53%;
+}
+.NavigatoinServices{
+	position: absolute;
+	top: 62%;
+	left: 59%;
+}
+.NavigatoinTariffs{
+	position: absolute;
+	top: 62%;
+	left: 66%;
+}
+.NavigatoinInfoInfo{
+	position: absolute;
+	top: 62%;
+	left: 73%;
+}
+.NavigatoinContacts{
+	position: absolute;
+	top: 62%;
+	left: 82%;
+}
+.NavigatoinSearch{
+	position: absolute;
+	top: 62%;
+	left: 89%;
+}
+.Navigation form button{
+	border-color: white;
+	border: none;
+	background: white;
+	font-family: Commissioner;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.FirstCarousel{
+	width: 100%;
+}
+
+.ButtonPosition form button{
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	background: #DEC377;
+	border: none;
+	color: white;
+	width: 13%;
+	height: auto;
+	font-family: Commissioner;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	border-radius: 2px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	justify-content: center;
+}
+.FirstCarouselText{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 50%;
+	top: 20%;
+	left: 10%;
+}
+.FirstCarouselTextOne{
+	font-family: Commissioner;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 50px;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.9);
+}
+.FirstCarouselTextTwo{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+	margin-top: 2%;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.Content{
+	width: 100%;
+	background: #E5E5E5;
+}
+.ContentBody{
+	margin-left: 8.8%;
+	margin-right: 8.8%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+}
+.ContentOption{
+	display: flex;
+	justify-content: space-between;
+}
+.ContentOptionInside{
+	width: 15%;
+	margin-top: -4%;
+	margin-left: 1.2%;
+	margin-right: 1.2%;
+	z-index: 2;
+	background: white;
+	padding: 5% 5% 3% 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.Ellipse{
+	border: 3px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	padding: 20%;
+}
+.Ellipse img{
+}
+.ContentOptionInside p{
+	font-family: 'Lato', sans-serif; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: rgba(0, 0, 0, 0.75);	
+}
+
+.ContentDes{
+	background: white;
+	display: flex;
+	margin-top: 5%;
+	margin-left: 1.2%;
+	margin-right: 1.2%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	position: relative;
+}
+.ContentDesText{
+	display: flex;
+	flex-direction: column;
+	margin: 5%;
+	margin-right: 15%;
+	width: 50%;
+	z-index: 2;
+}
+.ContentDesImg img{
+	height: 100%;
+	width: auto;
+	right: 0;
+}
+.ContentDesImg{
+	background-image: url(Rectangle 141.png);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.ContentDesText h2{
+	font-family: 'Commissioner', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 40px;
+
+	letter-spacing: 0.03em;
+
+	color: rgba(0, 0, 0, 0.9);
+}
+.ContentDesText p{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.Activity{
+	margin-top: 5%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+.Activity h2{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 40px;
+
+	letter-spacing: 0.03em;
+
+	color: rgba(0, 0, 0, 0.9);
+}
+.ActivityContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: -0.5%;
+	margin-right: -0.5%;
+
+}
+.ActivityBlock{
+	display: flex;
+	width: 27%;
+	justify-content: space-between;
+	background: white;
+	margin-bottom: 2%;
+	padding: 2%;
+	padding-left: 3%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+	padding-bottom: 0;
+}
+.ActivityText h5{
+	font-family: 'Commissioner', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(0, 0, 0, 0.9);
+	margin-block-start:0;
+}
+.ActivityImg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	padding: 6.1%;
+	margin-bottom: 20%;
+}
+.ActivityButton button{
+	color: rgba(0, 0, 0, 0.5);
+	border: none;
+	background: white;
+}
+.ActivityText{
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70%;
+}
+.ActivityLastButton button{
+	background: #DEC377;
+	border-radius: 2px;
+	padding: 1% 6%;
+	border: none;
+	color: white;
+	margin-left: -0.5%;
+	margin-top: 2%;
+
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+}
+.DirectionsOfActivity{
+	display: flex;
+	margin-top: 8%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+.DirectionsOfActivity h2{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 40px;
+
+	letter-spacing: 0.03em;
+
+	color: rgba(0, 0, 0, 0.9);
+}
+.DirectionsOfActivityFirst{
+	width: 100%;
+}
+.DirectionsOfActivity p{
+	margin-bottom: 65%;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#CarouselTwo{
+	position: absolute;
+	top: 78%;
+
+}
+
+
+.Partners{
+	width: 100%;
+}
+
+.PartnersContent{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 20%;
+	position: relative;
+}
+.PartnersContent h2{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+
+margin-left: 1%;
+}
+
+.PartnersBlock{
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+	margin-bottom: 3%;
+	margin-left: 2.5%;
+	height: 100%;
+}
+.PartnersText{
+	display: flex;
+	flex-direction: column;
+	padding: 5% 10%;
+}
+.PartnersText p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.PartnersText h3{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 40px;
+
+letter-spacing: 0.01em;
+
+color: #DEC377;
+}
+#PartnersTextMine{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 25px;
+
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+summary{
+	width: 25%;
+	outline: none;
+
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.5);
+}
+details{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 25px;
+
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+#PartnersFirstButton{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+background: #DEC377;
+border-radius: 2px;
+border: none;
+padding: 0.5% 4%;
+margin-left: 1%;
+margin-top: -2%;
+}
+
+.PartnersLastBlockText{
+	display: flex;
+
+}
+.PartnersLastBlockText p{
+	width: 60%;
+
+	margin-left: 1%;
+
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.PartnersLastBlockText form{
+	margin-left: 10%;
+}
+
+#PartnersLastButton{
+	width: 100%;
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #DEC377;
+
+padding: 2.5% 20%;
+background: white;
+
+border-radius: 2px;
+border: solid;
+border-color: #DEC377;
+
+margin-top: 15%;
+
+white-space: nowrap; 
+}
+.PartnersLogo{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5% 0%;
+	margin-bottom: 10%;
+}
+.PartnersLogo img{
+	filter: grayscale(100%);
+}
+
+
+.Services{
+	width: 100%;
+	background: #E5E5E5;
+}
+.ServicesDes{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+.ServicesDesFirst{
+	display: flex;
+}
+.ServicesDesFirst div{
+	width: 80%;
+	background: white;
+	justify-content: space-between;
+	margin: 4% 1%;
+	padding: 1% 5% 4% 5%;
+
+}
+.relative{
+	position: relative;
+}
+.ServicesDesFirstImg{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.ServicesDesFirst h4{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 45px;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.ServicesDesFirst p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.ServicesDesLast{
+	display: flex;
+	background: white;
+	margin: -2% 1% 2% 1%;
+	padding: 1% 5% 1% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+.ServicesDesLast h4{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 45px;
+
+color: rgba(0, 0, 0, 0.9);
+
+width: 120%;
+}
+.ServicesDesLast p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.ServicesImg{
+	width: 100%;
+}
+.ServicesImg img{
+	width: 100%;
+}
+
+.ServicesMain{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+.ServicesMain h2{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.ServicesMainBlock{
+
+}
+.SMB{
+	height: 140px;
+	width: 100%;
+	display: flex;
+	margin-bottom: 3%;
+	flex-basis: 16%;
+	position: relative;
+}
+.SMB form{
+	position: absolute;
+	bottom: 10%;
+	right: 2%;
+}
+.SMB button{
+	border: none;
+	background: white;
+
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+
+letter-spacing: 0.02em;
+text-transform: uppercase;
+
+color: rgba(0, 0, 0, 0.5);
+outline: none;
+}
+.PM{
+	padding-top: 1%;
+	padding-left: 8%;
+	padding-right: 5%;
+	background: white;
+	position: relative;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.SMBOneFirst{
+	margin-right: 3%;
+	width: 38.9%;
+}
+.SMBOneLast{
+	width: 58.1%;
+}
+.SMBTwoFirst{
+	margin-right: 3%;
+	width: 49%;
+}
+.SMBTwoLast{
+	width: 49%;
+}
+.SMBThreeFirst{
+	margin-right: 3%;
+	width: 58.1%;
+}
+.SMBThreeLast{
+	width: 38.9%;
+}
+
+.BGBlockOne{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 12.69%;
+	background: rgba(222, 195, 119, 0.4);
+}
+.BGBlockTwo{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 8.53%;
+	background: rgba(222, 195, 119, 0.4);
+}
+.BGBlockThree{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 10.2%;
+	background: rgba(222, 195, 119, 0.75);	
+}
+.BGBlockFour{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 8.53%;
+	background: rgba(222, 195, 119, 1);	
+}
+.BGBlockFive{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 12.69%;
+	background: rgba(222, 195, 119, 1);	
+}
+.ServicesMain h5{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+
+color: rgba(0, 0, 0, 0.9);
+
+margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.ServicesMineFooter{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+.ServicesMineFooter p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+
+width: 60%;
+}
+.ServicesMineFooter button{
+	background: #DEC377;
+border-radius: 2px;
+border: none;
+
+font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+padding: 5% 30%;
+white-space: nowrap;
+width: 100%; 
+align-items: center;
+justify-content: center;
+}
+
+
+.Benefit{
+	width: 100%;
+	background: white;
+}
+hr{
+	width: 100%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.BenefitContent{
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5%;
+}
+.BenefitContentOne{
+	display: flex;
+}
+.BenefitContentTwo{
+	display: flex;
+	padding-bottom: 10%;
+}
+.BenefitContentOneText{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.BenefitContentOneText h2{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.BenefitContentOneText p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.List{
+	width: 40%;
+	margin-left: 10%;
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 30px;
+
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.75);
+align-self: center;
+}
+.List ul li{
+	background: url("../img/List/Group 32.svg");
+	background-repeat: no-repeat;
+	list-style-type: none;
+	padding: 2% 0 2% 20%;
+	margin-top: 2%;
+	padding-top: 2px;
+}
+
+
+.Advantages{
+	width: 100%;
+	background: #E5E5E5;
+	margin-bottom: 0;
+}
+.AdvantagesContent{
+	width:	 80%;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+
+}
+.AdvantagesContentOne{
+	display: flex;
+	flex-direction: column;
+	padding-top: 7%;
+}
+.AdvantagesContentOne h2{
+font-family: Commissioner;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.ACOBlocks{
+	display: flex;
+	justify-content: space-between;
+}
+.ACOBlocks div{
+	width: 17%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: white;
+	padding: 2% 3% 2% 3%;
+	text-align: center;
+
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+border-radius: 5px;
+}
+.ACOBlocks p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: rgba(0, 0, 0, 0.75);
+}
+.ACOLastBlocks{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	background: white;
+	padding: 2% 30% 2% 5%;
+	margin-top: 3%;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+.ACOLastBlocks p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.ACOLastBlocks img{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.Organization{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	
+}
+.Organization h2{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.OrganizationOne{
+	display: flex;
+}
+.Organization p{
+	margin-left: 5%;
+
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.OrganizationTwo{
+	display: flex;
+}
+#OrganizationLastText{
+	margin-left: 0;
+
+font-weight: 300;
+font-size: 14px;
+line-height: 25px;
+
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.AdvantagesContentTwo{
+	display: flex;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+
+.form{
+	width: 45%;
+	background: white;
+	padding: 5%;
+
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 3px;
+}
+.form form{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.form div{
+	margin-bottom: 2%;
+}
+.form input{
+	border: none;
+}
+#LabelOne{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.5);
+}
+#LabelTwo{
+	font-family: Commissioner;
+font-size: 13px;
+line-height: 20px;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.01em;
+
+color: rgba(0, 0, 0, 0.5);
+}
+input::placeholder{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+display: flex;
+align-items: center;
+
+color: rgba(0, 0, 0, 0.5);
+opacity: 0.6;
+}
+input{
+	outline: none;
+}
+.form hr{
+	margin-top: 0.2%;
+}
+.form p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+.form a{
+	color: rgba(0, 0, 0, 0.5);
+}
+.form button{
+	margin-top: 5%;
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 2% 0;
+	background: #DEC377;
+	border-radius: 2px;
+
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 30px;
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.AdvantagesLastBlock{
+	width: 60%;
+	margin-top: 5%;
+}
+.AdvantagesLastBlock h2{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+
+letter-spacing: 0.03em;
+
+color: rgba(0, 0, 0, 0.9);
+}
+.AdvantagesLastBlock p{
+	font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 25px;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.AdvantagesLastBlock button{
+	font-family: 'Commissioner';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #DEC377;
+border-radius: 2px;
+border: none;
+padding: 1% 10%;
+
+outline: none;
+}
+.AdvantagesLastBlock form{
+	margin-top: 5%;
+}
+.LastHr{
+	width: 100%;
+}
+.LastHr hr{
+	width: 99.7%;
+	margin-bottom: 0;
+}
+
+
+footer{
+	width: 100%;
+	background: #E5E5E5;
+	margin-top: 0;
+}
+.FooterContent{
+	width: 80%;
+	margin-left: 10%;
+	padding-top: 5%;
+	display: flex;
+	padding-bottom: 5%;
+}
+.FooterOne{
+	width: 22%;
+	display: flex;
+	flex-direction: column;
+}
+.FooterOne h5{
+	margin-top: 0;
+
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	
+	color: rgba(0, 0, 0, 0.9);
+}
+.FooterOne div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 1%;
+}
+.FooterOne h6{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	
+	letter-spacing: 0.01em;
+
+	color: rgba(0, 0, 0, 0.5);
+
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.FooterTwoTop hr{
+	margin-top: -30px;
+}
+.FooterOne p{
+	margin-left: 5%;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	
+	color: rgba(0, 0, 0, 0.5);
+
+	order: 1;
+
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.FooterOne form {
+	display: flex;
+	width: 100%;
+}
+.FooterButton{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+
+	color: rgba(0, 0, 0, 0.75);
+
+	border: none;
+	background: #E5E5E5;
+	display: flex;
+	text-align: left;
+	width: 100%;
+	align-items: center;
+	margin-right: 9%;
+}
+.FuuterButton{
+	border: none;
+	display: flex;
+}
+.FooterOne button img{
+	margin-left: 1%;
+}
+.FooterOne form{
+	margin-bottom: 10%;
+	width: 100%;
+}
+.FooterOneSocial{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}
+.FooterOneSocialOne{
+	background: url("../img/Footer/vk.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterOneSocialTwo{
+	background: url("../img/Footer/odnoklassniki.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterOneSocialThree{
+	background: url("../img/Footer/linkedin.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterOneSocialFour{
+	background: url("../img/Footer/instagram.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterOneSocialFive{
+	background: url("../img/Footer/youtube.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterOneSocialSix{
+	background: url("../img/Footer/facebook.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 35px;
+	height: 35px;
+	border: none;
+	outline: none;
+}
+.FooterTwo{
+	width: 55%;
+	margin-left: 5%;
+}
+.FooterTwoTop h6{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+	
+	text-transform: uppercase;
+
+	color: rgba(0, 0, 0, 0.5);
+}
+.FooterTwoBody{
+	display: flex;
+}
+.FooterTwoBodyBlock{
+	margin-left: 2%;
+}
+.FTBBTitle{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+	
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+
+	color: rgba(0, 0, 0, 0.75);
+}
+.FTBBTel{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	
+	color: rgba(0, 0, 0, 0.8);
+
+	text-decoration: none;
+}
+.Address{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	
+	letter-spacing: 0.01em;
+
+	color: rgba(0, 0, 0, 0.75);
+}
+.AddressBody{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	
+	color: rgba(0, 0, 0, 0.8);
+}
+.FTBBMail{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	
+	color: rgba(0, 0, 0, 0.8);
+
+	text-decoration: none;
+}
+
+.FooterThree{
+	margin-left: 5%;
+}
+.FooterThreeTop h6{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+	
+	text-transform: uppercase;
+
+	color: rgba(0, 0, 0, 0.5);
+}
+.FooterThreeTop hr{
+	margin-top: -30px;
+}
+.FooterThreeBody{
+	display: flex;
+	flex-direction: column;
+}
+.FTBOne{
+	font-family: 'Commissioner';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	
+	letter-spacing: 0.01em;
+
+	color: rgba(0, 0, 0, 0.75);
+
+}
+.FTBTwo{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	
+	color: rgba(0, 0, 0, 0.8);
+}
+.FooterLastBlock{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.1);
+
+}
+.FooterLastBlock p{
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+
+	letter-spacing: 0.02em;
+
+	color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1420px) {
+	.contact{
+		flex-wrap: wrap;
+		margin-bottom: 10%;
+	}
+	.List ul li{
+	padding: 2% 0 3% 20%;
+}
+}
+@media (max-width: 1300px) {
+	.ButtonPosition form button{
+		top: 65%;
+	}
+	.Navigation{
+		width: 80%;
+	}
+
+	.NavigatoinHome{
+	position: absolute;
+	top: 62%;
+	left: 44%;
+}
+.NavigatoinAboutUs{
+	position: absolute;
+	top: 62%;
+	left: 51.5%;
+}
+.NavigatoinServices{
+	position: absolute;
+	top: 62%;
+	left: 57%;
+}
+.NavigatoinTariffs{
+	position: absolute;
+	top: 62%;
+	left: 64%;
+}
+.NavigatoinInfoInfo{
+	position: absolute;
+	top: 62%;
+	left: 71%;
+}
+.NavigatoinContacts{
+	position: absolute;
+	top: 62%;
+	left: 80%;
+}
+.NavigatoinSearch{
+	position: absolute;
+	top: 62%;
+	left: 89%;
+}
+}
+
+@media (max-width: 1200px) {
+	.FirstCarouselText{
+		top: 10%;
+	}
+	.PartnersLogo{
+		flex-wrap: wrap;
+	}
+	.PartnersLogo img{
+		margin-bottom: 5%;
+		margin-right: 2%;
+	}
+	.FooterOne{
+	width: 25%;
+	}
+}
+@media (max-width: 1150px) {
+	.FirstCarouselText{
+		width: 60%;
+	}
+	.ContentDesImg img {
+    height: 90%;
+    margin-top: 5%;
+}	
+}
+@media (max-width: 1050px) {
+	.FirstCarouselText{
+		width: 70%;
+	}	
+}
+@media (max-width: 1000px) {
+	
+}
+@media (max-width: 900px) {
+	header{
+		height: 200px;
+	}
+	.NavigatoinHome{
+	position: absolute;
+	top: 80%;
+	left: 10%;
+}
+.NavigatoinAboutUs{
+	position: absolute;
+	top: 80%;
+	left: 24%;
+}
+.NavigatoinServices{
+	position: absolute;
+	top: 80%;
+	left: 36%;
+}
+.NavigatoinTariffs{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+}
+.NavigatoinInfoInfo{
+	position: absolute;
+	top: 80%;
+	left: 64%;
+}
+.NavigatoinContacts{
+	position: absolute;
+	top: 80%;
+	left: 80%;
+}
+.NavigatoinSearch{
+	position: absolute;
+	top: 55%;
+	left: 87%;
+}
+.FirstCarouselTextTwo{
+		width: 50%;
+}
+.ButtonPosition form button{
+	left: 80%;
+	top: 70%;
+}
+.ContentDes{
+	width: 100%;
+}
+.ContentDesImg{
+	z-index: 0;
+	width: 0;
+	height: 0;
+}
+.ContentDesText{
+	width: 80%;
+}
+.ActivityBlock{
+	width: 42%;
+}
+.List{
+	width: 59%;
+}
+.FooterOne{
+	order: 0;
+	width: 40%;
+}
+.FooterTwo{
+	order: 2;
+	width: 80%;
+}
+.FooterThree{
+	order: 1;
+	width: 40%;
+}
+.FooterContent{
+	flex-wrap: wrap;
+}
+}
+@media (max-width: 768px) {
+	.FirstCarouselTextTwo{
+		width: 65%;
+		margin-top: -2%;
+	}
+	.FirstCarouselTextOne{
+		width: 90%;
+	}
+	.ACOBlocks div{
+		width: 43%;
+		margin-bottom: 2%;
+	}
+	.ACOBlocks{
+		flex-wrap: wrap;
+	}
+	.AdvantagesContentTwo{
+		flex-direction: column;
+	}
+	.Organization{
+		width: 100%;
+	}
+	.form{
+		width: 90%;
+	}
+	.AdvantagesLastBlock{
+		width: 100%;
+	}
+	.ContentOptionInside{
+		width: 37%;
+		margin-bottom: 7%;
+	}
+	.ContentOption{
+		flex-wrap: wrap;
+	}
+	.FirstCarouselText{
+		top: -5%;
+	}
+	.ButtonPosition form button{
+	left: 70%;
+	top: 70%;
+	padding: 0.5% 2%;
+	width: 20%;
+	}
+	.FirstCarouselTextOne{
+    font-size: 30px;
+  }
+  .FirstCarouselTextTwo{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .a1,.Viber,.WhatsApp,.Subtract{
+    width: 0;
+    height: 0;
+  }
+  .a1 img{
+    width: 0;
+    height: 0;
+  }
+  .Viber img{
+    width: 0;
+    height: 0;
+  }
+  .WhatsApp img{
+    width: 0;
+    height: 0;
+  }
+  .Subtract img{
+    width: 0;
+    height: 0;
+  }
+  .FirstCarouselTextTwo{
+    margin-top: -7%;
+  }
+   .ActivityText h5{
+    font-size: 15px;
+  }
+  .DirectionsOfActivity{
+    flex-direction: column;
+  }
+  .List{
+  	font-size: 15px;
+  }
+  #PartnersTextMine{
+  	font-size: 10px;
+  	line-height: 17px;
+  }
+  .PartnersLastBlockText p{
+  	width: 100%;
+  	flex-direction: column;
+  }
+  .ServicesDesFirst{
+  	flex-direction: column;
+  }
+  .ServicesDesFirst div{
+  	width: 90%;
+  }
+  .ServicesDesLast{
+  	width: 90%;
+    margin-top: 4%;
+    flex-direction: column;
+  }
+  .ServicesDesLast h4{
+  	width: 100%;
+  }
+  .ServicesMain h5{
+  	font-size: 14px;
+  }
+  .ServicesMineFooter{
+  	flex-direction: column;
+  }
+  .ServicesMineFooter p{
+  	width: 100%;
+  }
+  .BenefitContentOne{
+  	flex-direction: column;
+  }
+  .BenefitContentOneText{
+  	width: 100%;
+  }
+  .List{
+  	width: 100%;
+  }
+  .BenefitContentTwo{
+  	flex-direction: column;
+  }
+  .FooterThree{
+  	margin-left: 20%;
+  }
+}
+@media (max-width: 426px) {
+	.FooterTwoBody{
+		flex-wrap: wrap;
+	}
+	.Navigation form button{
+		font-size: 10px;
+	}
+	.tel a{
+		font-size:10px;
+	}
+	.contact{
+		bottom: 50%;
+	}
+	.NavigatoinInfoInfo{
+		left: 63%;
+	}
+	.FirstCarouselTextOne{
+		font-size: 17px;
+		line-height: 23px;
+		margin-bottom: 2%;
+	}
+	.FirstCarouselTextTwo{
+		line-height: 15px;
+		color: rgba(0, 0, 0, 0.5);
+	}
+	.ButtonPosition form button{
+		font-size: 10px;
+		width: 22%;
+		left: 68%;
+		top: 60%;
+	}
+
+	.NavigatoinHome{
+		position: absolute;
+		top: 60%;
+		left: 10%;
+	}
+	.NavigatoinAboutUs{
+		position: absolute;
+		top: 60%;
+		left: 40%;
+	}
+	.NavigatoinServices{
+		position: absolute;
+		top: 60%;
+		left: 68%;
+	}
+	.NavigatoinTariffs{
+		position: absolute;
+		top: 80%;
+		left: 10%;
+	}
+	.NavigatoinInfoInfo{
+		position: absolute;
+		top: 80%;
+		left: 40%;
+	}
+	.NavigatoinContacts{
+		position: absolute;
+		top: 80%;
+		left: 65%;
+	}
+	.NavigatoinSearch{
+		position: absolute;
+		top: 60%;
+		left: 87%;
+	}
+	.ContentOptionInside p{
+		font-size: 12px;
+	}
+	.ActivityBlock{
+		width: 100%;
+	}
+	.PartnersLastBlockText{
+		flex-direction: column;
+	}
+	.ServicesMain h5{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.ACOBlocks p{
+		font-size: 14px;
+	}
+	.FooterContent{
+		flex-direction: column;
+	}
+	.FooterThree{
+		margin-left: 5%;
+	}
+	.PartnersText p{
+		margin-top: 0;
+	}
+	.PartnersText h3{
+		margin-top: 0;
+	}
+	.List{
+		margin-left: 0;
+	}
+}
