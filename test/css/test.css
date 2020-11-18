@@ -1,3 +1,21 @@
+@font-face {
+	font-family: 'LatoLight';
+	src: url('../../fonts/LatoLight.eot');
+	src: local('☺'), url('../../fonts/LatoLight.woff') format('woff'), url('../../fonts/LatoLight.ttf') format('truetype'), url('../../fonts/LatoLight.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato-Semibold';
+	src: url('../../fonts/Lato-Semibold.eot');
+	src: local('☺'), url('../../fonts/Lato-Semibold.woff') format('woff'), url('../../fonts/Lato-Semibold.ttf') format('truetype'), url('../../fonts/Lato-Semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+
 html{
 	margin: 0;
 	padding: 0;
@@ -66,7 +84,7 @@ color: rgba(0, 0, 0, 0.8);
 	margin-top: 5%;
 }
 .tel a{
-	font-family: Commissioner;
+	font-family: 'Commissioner';
 font-style: normal;
 font-weight: normal;
 
@@ -213,7 +231,7 @@ text-decoration: none;
 	color: rgba(0, 0, 0, 0.9);
 }
 .FirstCarouselTextTwo{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
@@ -259,7 +277,7 @@ text-decoration: none;
 .Ellipse img{
 }
 .ContentOptionInside p{
-	font-family: 'Lato', sans-serif; 
+	font-family: 'LatoLight'; 
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -312,7 +330,7 @@ color: rgba(0, 0, 0, 0.75);
 	color: rgba(0, 0, 0, 0.9);
 }
 .ContentDesText p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
@@ -423,7 +441,7 @@ color: rgba(0, 0, 0, 0.75);
 }
 .DirectionsOfActivity p{
 	margin-bottom: 65%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 15px;
@@ -478,7 +496,7 @@ margin-left: 1%;
 	padding: 5% 10%;
 }
 .PartnersText p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -498,7 +516,7 @@ letter-spacing: 0.01em;
 color: #DEC377;
 }
 #PartnersTextMine{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -515,7 +533,7 @@ summary{
 	width: 25%;
 	outline: none;
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Semibold';
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -527,7 +545,7 @@ text-transform: uppercase;
 color: rgba(0, 0, 0, 0.5);
 }
 details{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -569,7 +587,7 @@ margin-top: -2%;
 
 	margin-left: 1%;
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -662,7 +680,7 @@ line-height: 45px;
 color: rgba(0, 0, 0, 0.9);
 }
 .ServicesDesFirst p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -690,7 +708,7 @@ color: rgba(0, 0, 0, 0.9);
 width: 120%;
 }
 .ServicesDesLast p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -745,7 +763,7 @@ color: rgba(0, 0, 0, 0.9);
 	border: none;
 	background: white;
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Semibold';
 font-style: normal;
 font-weight: 600;
 font-size: 12px;
@@ -846,7 +864,7 @@ margin-block-start: 0;
 	margin-top: 5%;
 }
 .ServicesMineFooter p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -923,7 +941,7 @@ letter-spacing: 0.03em;
 color: rgba(0, 0, 0, 0.9);
 }
 .BenefitContentOneText p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -934,7 +952,7 @@ color: rgba(0, 0, 0, 0.8);
 .List{
 	width: 40%;
 	margin-left: 10%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Semibold';
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -1000,7 +1018,7 @@ color: rgba(0, 0, 0, 0.9);
 border-radius: 5px;
 }
 .ACOBlocks p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -1021,7 +1039,7 @@ color: rgba(0, 0, 0, 0.75);
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
 }
 .ACOLastBlocks p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -1057,7 +1075,7 @@ color: rgba(0, 0, 0, 0.9);
 .Organization p{
 	margin-left: 5%;
 
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: normal;
 font-size: 15px;
@@ -1134,7 +1152,7 @@ letter-spacing: 0.01em;
 color: rgba(0, 0, 0, 0.5);
 }
 input::placeholder{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -1153,7 +1171,7 @@ input{
 	margin-top: 0.2%;
 }
 .form p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 13px;
@@ -1200,7 +1218,7 @@ letter-spacing: 0.03em;
 color: rgba(0, 0, 0, 0.9);
 }
 .AdvantagesLastBlock p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 font-style: normal;
 font-weight: 300;
 font-size: 15px;
@@ -1293,7 +1311,7 @@ footer{
 }
 .FooterOne p{
 	margin-left: 5%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
@@ -1311,7 +1329,7 @@ footer{
 	width: 100%;
 }
 .FooterButton{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato-Semibold';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 12px;
@@ -1406,7 +1424,7 @@ footer{
 	margin-left: 5%;
 }
 .FooterTwoTop h6{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -1435,7 +1453,7 @@ footer{
 	color: rgba(0, 0, 0, 0.75);
 }
 .FTBBTel{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
@@ -1457,7 +1475,7 @@ footer{
 	color: rgba(0, 0, 0, 0.75);
 }
 .AddressBody{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
@@ -1466,7 +1484,7 @@ footer{
 	color: rgba(0, 0, 0, 0.8);
 }
 .FTBBMail{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
@@ -1481,7 +1499,7 @@ footer{
 	margin-left: 5%;
 }
 .FooterThreeTop h6{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -1511,7 +1529,7 @@ footer{
 
 }
 .FTBTwo{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 13px;
@@ -1528,7 +1546,7 @@ footer{
 
 }
 .FooterLastBlock p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'LatoLight';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 12px;
