@@ -877,6 +877,7 @@ width: 60%;
 .ServicesMineFooter button{
 	background: #DEC377;
 	width: 100%;
+	padding: 5% 30%;
 border-radius: 2px;
 border: none;
 
@@ -893,8 +894,6 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 
 color: #FFFFFF;
-
-padding: 5% 30%;
 white-space: nowrap; 
 align-items: center;
 justify-content: center;
