@@ -21,7 +21,7 @@ html, body {
   ::-webkit-scrollbar-track-piece { /* 4 - видимая часть трека */
   }
 
-  ::-webkit-scrollbar-thumb { /* 5 - ползунок */ 
+  ::-webkit-scrollbar-thumb { /* 5 - ползунок */
     border: 5px solid transparent;
     border-radius: 100px;
     /*background-color: #8070d4;*/
@@ -43,7 +43,7 @@ body{
 
 	min-width: 1280px;
 
-	background-color: #202020;
+	background-color: #093028;
 }
 
 h1::selection{
@@ -63,7 +63,7 @@ span.Two::selection{
 }
 a::selection{
 	background: #11998e;
-} 
+}
 p::selection{
 	background: #11998e;
 }
@@ -175,7 +175,7 @@ img::selection{
 		width: 62%;
 	}
 	100% {
-		width: 64%; 
+		width: 64%;
 	}
 	
 }
@@ -226,6 +226,29 @@ img::selection{
 	
 }
 
+@keyframes BarAnimationUnity {
+
+	0% {
+		width: 20%;
+	}
+	20% {
+		width: 24%;
+	}
+	40% {
+		width: 21%;
+	}
+	60% {
+		width: 27%;
+	}
+	80% {
+		width: 21%;
+	}
+	100% {
+		width: 20%;
+	}
+
+}
+
 @keyframes Scroll {
 	0%{
 		transform: translateY(0px);
@@ -257,7 +280,7 @@ img::selection{
 	height: 50%;
 	margin: 0;
 
-	background: linear-gradient(-45deg,#237A57,#0f3443,#F56217);
+	background: linear-gradient(-45deg,#ffffff,#ffffff,#ffffff,#000000,#000000,#000000);
 	background-size: 300%, 300%;
 	animation: BgAnimation 15s ease infinite;
 	background-repeat: no-repeat;
@@ -282,6 +305,8 @@ img::selection{
 	font-family: 'Baloo Tammudu 2', sans-serif;
 	color: #E9E4F0;
 	font-weight: lighter;
+
+	animation: hOne 15s ease-in-out infinite;
 }
 
 .ImgScroll{
@@ -336,6 +361,7 @@ h1{
 	background-size: 300%, 300%;
 	animation: BgAnimation 15s ease infinite;
 	background-repeat: no-repeat;
+	/*animation: hOne 15s ease-in-out infinite;*/
 	font-weight: normal;
 
 	
@@ -478,7 +504,7 @@ p{
 .Skills{
 	margin-top: 0%;
 
-	background: linear-gradient(-45deg,#360033,#0b8793);
+	background: linear-gradient(-45deg,#0f0c29,#0f0c29,#302b63,#0f0c29,#0f0c29);
 	background-size: 300%, 300%;
 	animation: BgAnimation 15s ease infinite;
 	background-repeat: no-repeat;
@@ -522,7 +548,7 @@ p{
 .Hobbies{
 	margin-top: 0%;
 
-	background: linear-gradient(-45deg,#FF5F6D,#FFC371);
+	background: linear-gradient(-45deg,#181818,#BA8B02,#181818);
 	background-size: 300%, 300%;
 	animation: BgAnimation 15s ease infinite;
 	background-repeat: no-repeat;
@@ -642,6 +668,16 @@ p{
 	border-radius: 5px;
 
 	animation: BarAnimationVueJs 1.2s ease infinite;
+}
+
+.BarUnity{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationUnity 1.2s ease infinite;
 }
 
 .Contact{
