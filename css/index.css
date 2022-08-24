@@ -8,7 +8,7 @@ html, body {
     width: 15px;
     background-color: #202020;
     /*background-color: #fefefefe;*/
-    border-radius: 100px;
+    border-radius: 100px; 
   }
 
   ::-webkit-scrollbar-button:no-button { /* 2 - кнопка */
